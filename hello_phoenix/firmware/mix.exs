@@ -36,7 +36,7 @@ defmodule Firmware.MixProject do
 
   # Run "mix help deps" to learn about dependencies.
   defp deps do
-    [{:nerves, "~> 1.3", runtime: false}] ++ deps(@target)
+    [{:nerves, github: "nerves-project/nerves", branch: "download-raise", override: true, runtime: false}] ++ deps(@target)
   end
 
   # Specify target specific dependencies
