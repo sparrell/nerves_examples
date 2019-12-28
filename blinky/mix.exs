@@ -46,7 +46,7 @@ defmodule Blinky.MixProject do
 
       # Dependencies for all targets except :host
       {:nerves_runtime, "~> 0.6", targets: @all_targets},
-      {:nerves_init_gadget, "~> 0.4", targets: @all_targets},
+      {:nerves_pack, "~> 0.2", targets: @all_targets},
       {:nerves_leds, "~> 0.8", targets: @all_targets},
 
       # Dependencies for specific targets
